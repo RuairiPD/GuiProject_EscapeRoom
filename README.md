@@ -8,3 +8,4 @@
 # Page 1 Theme: Tim burners Less
 # Page 2 Theme: ???
 # Page 3 Theme: Ai 
+# Main Page (Start Button) (Timer Starts) --> Present (Unlock the Time Machine) --> Go to the past or future (Solve both of the past and the future get the keys) --> go to present (Solve last puzzle) --> Escape the room (time stops). 
