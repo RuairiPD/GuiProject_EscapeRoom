@@ -1,18 +1,70 @@
 <!DOCTYPE html>
 <html>
     <style>
+        canvas{
+            border: 1px solid #000;
+            cursor: crosshair;
+        }
+
         *{background-color: black;}
         h1{color:white; text-align: center;}
-        .laptop{ display: block; width: 100%; height: 100%;}
-        .arrow{display: block; width: 10%; height:10%; margin-right:10px; margin-left: auto;}
+        
+        .arrow{display: block; width: 100px; height:100px; margin-right:10px; margin-left: auto;}
+        .key{display: block; width: 100px; height:100px; margin-right:auto; margin-left: auto;}
     </style>
+    <script src="Laptop.js"></script>
     <head>
         
         
     </head>
 
     <body>
-        <img class="laptop" src="images/Laptop.png"  alt="Laptop Png" >
         <img class= "arrow" src="images/arrow.png">
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- Maze -->
+        <canvas id="myCanvas"></canvas>
+        <div>
+            <script>
+             const canvas = document.getElementById('myCanvas');
+            const ctx = canvas.getContext('2d');
+          
+            const image = new Image();
+            image.src = 'images/FullscreenLaptop.png'; 
+          
+            image.onload = () => {
+              canvas.width = image.width;
+              canvas.height = image.height;
+              ctx.drawImage(image, 0,0 );
+            };
+          
+            canvas.addEventListener('mousemove', (e) => {
+              const rect = canvas.getBoundingClientRect();
+              const x = e.clientX - rect.left;
+              const y = e.clientY - rect.top;
+          
+              const pixel = ctx.getImageData(x, y, 1, 1).data;
+              const [r, g, b] = pixel;
+          
+              // Check for specific color, e.g. red
+              // red r=237 g=28 b= 36
+              // green r=34 g= 177 b= 76
+              // white r=255 g= 255 b= 255
+              // yellow r=255 g=242 b=0
+
+              if (r === 34 && g === 177 && b === 76) {
+                console.log('Green!');
+                // You can trigger any custom event here
+              }
+            });   
+            </script>
+          </div>
+        
+        <img src="images/key.png" hidden="hidden" class="key" >
     </body>
 </html> 
