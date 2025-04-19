@@ -12,6 +12,6 @@
 
 # Ruairi To-Do
 # 1. Make key appear when game finished
-# 2. Get it to break when red is touched
+
 # 3. add a green/redlight so player knows when its started and if they failed
 # 4. FUGGG THIS SHITTTTTTTTTTTTTTTTTTT
