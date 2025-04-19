@@ -9,3 +9,10 @@
 # Page 2 Theme: 
 # Page 3 Theme: Ai 
 # Main Page (Start Button) (Timer Starts) --> Present (Unlock the Time Machine) --> Go to the past or future (Solve both of the past and the future get the keys) --> go to present (Solve last puzzle) --> Escape the room (time stops). 
+
+# Ruairi To-Do
+# 1. Make key appear when game finished
+# 2. Get it to break when red is touched
+# 3. add a green/redlight so player knows when its started and if they failed
+# 4. make back button and clicking monitor bring up game vs get out of it
+# 5. FUGGG THIS SHITTTTTTTTTTTTTTTTTTT
