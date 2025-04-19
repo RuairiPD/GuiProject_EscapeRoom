@@ -14,5 +14,4 @@
 # 1. Make key appear when game finished
 # 2. Get it to break when red is touched
 # 3. add a green/redlight so player knows when its started and if they failed
-# 4. make back button and clicking monitor bring up game vs get out of it
-# 5. FUGGG THIS SHITTTTTTTTTTTTTTTTTTT
+# 4. FUGGG THIS SHITTTTTTTTTTTTTTTTTTT
