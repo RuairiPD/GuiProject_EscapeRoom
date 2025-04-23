@@ -1,0 +1,4 @@
+
+
+.arrow{display: block; width: 10%; height:10%; margin-right:10px; margin-left: auto;}
+<img class= "arrow" src="images/arrow.png">
