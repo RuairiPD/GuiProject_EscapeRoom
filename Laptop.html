@@ -31,7 +31,7 @@
         <br>
         <br>
         <br>
-        <img class="stoplight"src="images/Stoplight_stop.jpg" id="Lights">  
+        
         <br>
         <br>
         <br>
@@ -81,7 +81,7 @@
               if (r === 0 && g === 0 && b === 0 ) {
                 console.log('Black');
                 trueFalse = "";
-                
+                document.getElementById("Lights").src="images/Stoplight_stop.jpg";
               }
               if (r === 255 && g === 255 && b === 255 ) {
                 console.log('White!');
@@ -98,7 +98,7 @@
            
             </script>
           </div>
-        
+          <img class="stoplight"src="images/Stoplight_stop.jpg" id="Lights">  
         <p id="p" hidden="hidden"><img src="images/key.png"  class="key" ></p>
     </body>
 </html> 
