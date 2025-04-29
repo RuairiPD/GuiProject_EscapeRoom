@@ -16,7 +16,7 @@
         
         .arrow{display: block; width: 100px; height:100px; margin-right:10px; margin-left: auto;}
         .key{display: block; width: 100px; height:100px; margin-right:auto; margin-left: auto;}
-        
+        .stoplight{display: block;width: auto; height: 200px;}
         
     </style>
     <script src="Laptop.js"></script>
@@ -30,7 +30,8 @@
         
         <br>
         <br>
-        <br>  
+        <br>
+        <img class="stoplight"src="images/Stoplight_stop.jpg" id="Lights">  
         <br>
         <br>
         <br>
@@ -70,12 +71,12 @@
               if (r === 34 && g === 177 && b === 76) {
                 console.log('Green!');
                 trueFalse = "on";
-                
+                document.getElementById("Lights").src="images/Stoplight_go.jpg";
               }
               if (r === 237 && g === 28 && b === 36 ) {
                 console.log('Red!');
                 trueFalse = "";
-                
+                document.getElementById("Lights").src="images/Stoplight_stop.jpg";
               }
               if (r === 0 && g === 0 && b === 0 ) {
                 console.log('Black');
