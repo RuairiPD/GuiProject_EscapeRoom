@@ -68,9 +68,9 @@
         // localStorage.clear();
         
         // Need to call your keys key_past or key_future @jamie and matty
-        const key = localStorage.getItem("key_present");
-        const key_2 = localStorage.getItem("key_past")
-        const key_3 = localStorage.getItem("key_future")
+        const key = sessionStorage.getItem("key_present");
+        const key_2 = sessionStorage.getItem("key_past")
+        const key_3 = sessionStorage.getItem("key_future")
         if (key == 1){
             document.getElementById("timeMachine").src=("images/timeMachine_completed.jpg");
             document.getElementById("Exit").src=("images/door_Locked1.png");
