@@ -10,6 +10,12 @@
         h1{color:white;text-align: center;font-size:75px}
         .laptop{ display: block; margin-left: auto; margin-right: auto;}
         .timeMachine{display: block; margin-left: auto;margin-right: auto; width:335px;height:603px;}
+        .row {display: flex;}
+        .column {flex: 33.33%; padding: 5px;}
+        .past{display: block;margin-left: auto; width: 112.5px;height: 112.5px;}
+        .future{display: block;margin-right: auto; width: 112.5px;height: 112.5px;}
+        .text_past{color: white;font-size: 50px; text-align: right;}
+        .text_future{color: white;font-size: 50px;text-align: left;}
     </style>
 
     </head>
@@ -21,14 +27,38 @@
             <img class="laptop" src="images/Laptop.png"  alt="Laptop Png" > 
         </a>
         <br>
-        <a id="enableTimeTravel"><img id="timeMachine" class="timeMachine" src="images/timeMachine.jpg"></a>
+
+        <div class="row">
+            
+            <div class="column">
+                <p id="hide"hidden="hidden"><img class="past" src="images/arrow.png" alt="Past"></p>
+                <p id= "hide_3"hidden="hidden"class="text_past">Past</p>
+            </div>
+            
+            <div class="column">
+                <a id="enableTimeTravel"><img id="timeMachine" class="timeMachine" src="images/timeMachine.jpg"></a>
+            </div>
+            
+            <div class="column">
+                <p id="hide_2" hidden="hidden"><img class="future" src="images/arrow_right.png" alt="Future"></p>
+                <p id="hide_4" hidden="hidden"class="text_future">Future</p>
+            </div>
+            
+
+          </div>
+
+
+        
     </body>
     <script>
         const key = localStorage.getItem("key_present");
         if (key == 1){
             document.getElementById("timeMachine").src=("images/timeMachine_completed.jpg");
             document.getElementById("timeMachine").class="timeMachine";
-            
+            document.getElementById("hide").hidden="";
+            document.getElementById("hide_2").hidden="";
+            document.getElementById("hide_3").hidden="";
+            document.getElementById("hide_4").hidden="";
         }
     </script>
 </html> 
