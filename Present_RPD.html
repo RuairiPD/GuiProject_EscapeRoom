@@ -55,21 +55,33 @@
         <br>
         <img src="images/Exitsign.avif" class="exit">
         <br>
-        <img class="door"src="images/door_Locked.png">
+        <a id="Open"href="Present_RPD.html"><img id="Exit"class="door"src="images/door_Locked.png"></a>
         <br>
         <br>
         <br>
         <br>
     </body>
     <script>
+        // Need to call your keys key_past or key_future @jamie and matty
         const key = localStorage.getItem("key_present");
+        const key_2 = localStorage.getItem("key_past")
+        const key_3 = localStorage.getItem("key_future")
         if (key == 1){
             document.getElementById("timeMachine").src=("images/timeMachine_completed.jpg");
+            document.getElementById("Exit").src=("images/door_Locked1.png");
             document.getElementById("timeMachine").class="timeMachine";
             document.getElementById("hide").hidden="";
             document.getElementById("hide_2").hidden="";
             document.getElementById("hide_3").hidden="";
             document.getElementById("hide_4").hidden="";
         }
+        if(key_2 == 1 || key_3 == 1 ){
+            document.getElementById("Exit").src=("images/door_Locked2.png");
+        }
+        if(key == 1 && key_2 == 1 && key_3 == 1 ){
+            document.getElementById("Exit").src=("images/door_Open.png");
+            document.getElementById("Open").href=("End.html");
+        }
+        
     </script>
 </html> 
