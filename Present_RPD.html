@@ -11,6 +11,12 @@
         .laptop{ display: block; margin-left: auto; margin-right: auto; width: auto;}
         .timeMachine{display: block; margin-left: auto;margin-right: auto; width: 20%;}
     </style>
+    <script>
+        const key = localStorage.getItem("key_present");
+        if (key == 1){
+            document.getElementById("timeMachine").src="images/timeMachine_completed.jpg";
+        }
+    </script>
         <h1>Present</h1>
     </head>
     <!--BODY-->
@@ -18,8 +24,9 @@
         <br>
         <a href="Laptop.html">
             <img class="laptop" src="images/Laptop.png"  alt="Laptop Png" > 
+            <script></script>
         </a>
         <br>
-        <img class="timeMachine"src="images/timeMachine.jpg">
+        <img id="timeMachine" class="timeMachine"src="images/timeMachine.jpg">
     </body>
 </html> 
