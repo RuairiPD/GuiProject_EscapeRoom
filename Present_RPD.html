@@ -7,26 +7,28 @@
     <style>
         
         *{background-color: black;}
-        h1{color:white; text-align: center;}
-        .laptop{ display: block; margin-left: auto; margin-right: auto; width: auto;}
-        
+        h1{color:white;text-align: center;font-size:75px}
+        .laptop{ display: block; margin-left: auto; margin-right: auto;}
+        .timeMachine{display: block; margin-left: auto;margin-right: auto; width:335px;height:603px;}
     </style>
-        <h1>Present</h1>
+
     </head>
     <!--BODY-->
     <body>
-        
-        
-        
-        
-        
-        
-        
-        
+        <div><h1>Present</h1></div>
         <br>
         <a href="Laptop.html">
             <img class="laptop" src="images/Laptop.png"  alt="Laptop Png" > 
         </a>
-        
+        <br>
+        <a id="enableTimeTravel"><img id="timeMachine" class="timeMachine" src="images/timeMachine.jpg"></a>
     </body>
+    <script>
+        const key = localStorage.getItem("key_present");
+        if (key == 1){
+            document.getElementById("timeMachine").src=("images/timeMachine_completed.jpg");
+            document.getElementById("timeMachine").class="timeMachine";
+            
+        }
+    </script>
 </html> 

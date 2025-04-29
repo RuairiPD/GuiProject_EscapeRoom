@@ -11,10 +11,10 @@
 # Main Page (Start Button) (Timer Starts) --> Present (Unlock the Time Machine) --> Go to the past or future (Solve both of the past and the future get the keys) --> go to present (Solve last puzzle) --> Escape the room (time stops). 
 
 # Ruairi To-Do
-# 1. Make key appear when game finished
-
+# 1. add past and future after time machine enabled
+# 3. add some sort of "completion door"
 # 3. add a green/redlight so player knows when its started and if they failed
-# 4. FUGGG THIS SHITTTTTTTTTTTTTTTTTTT
+
 
 # Jamie To-Do
 # 1. Use ChatGPT to genrate desk setup
