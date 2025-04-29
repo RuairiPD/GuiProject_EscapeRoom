@@ -33,7 +33,7 @@
         <div class="row">
             
             <div class="column">
-                <p id="hide"hidden="hidden"><img class="past" src="images/arrow.png" alt="Past"></p>
+                <p id="hide"hidden="hidden"><a href="gartha.html"><img class="past" src="images/arrow.png" alt="Past"></a></p>
                 <p id= "hide_3"hidden="hidden"class="text_past">Past</p>
             </div>
             
@@ -42,7 +42,7 @@
             </div>
             
             <div class="column">
-                <p id="hide_2" hidden="hidden"><img class="future" src="images/arrow_right.png" alt="Future"></p>
+                <p id="hide_2" hidden="hidden"><a href="Future_JK.html"><img class="future" src="images/arrow_right.png" alt="Future"></a></p>
                 <p id="hide_4" hidden="hidden"class="text_future">Future</p>
             </div>
         </div>
@@ -62,6 +62,11 @@
         <br>
     </body>
     <script>
+        // testing for end sequence
+        // localStorage.setItem("key_past",1);
+        // localStorage.setItem("key_future",1);
+        // localStorage.clear();
+        
         // Need to call your keys key_past or key_future @jamie and matty
         const key = localStorage.getItem("key_present");
         const key_2 = localStorage.getItem("key_past")
