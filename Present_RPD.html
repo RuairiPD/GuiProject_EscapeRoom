@@ -10,6 +10,14 @@
         h1{color:white;text-align: center;font-size:75px}
         .laptop{ display: block; margin-left: auto; margin-right: auto;}
         .timeMachine{display: block; margin-left: auto;margin-right: auto; width:335px;height:603px;}
+        .row {display: flex;}
+        .column {flex: 33.33%; padding: 5px;}
+        .past{display: block;margin-left: auto; width: 112.5px;height: 112.5px;}
+        .future{display: block;margin-right: auto; width: 112.5px;height: 112.5px;}
+        .text_past{color: white;font-size: 50px; text-align: right;}
+        .text_future{color: white;font-size: 50px;text-align: left;}
+        .door{display: block; margin-left: auto; margin-right: auto;}
+        .exit{display: block; margin-left: auto; margin-right: auto; width: 313px; height: 168px;}
     </style>
 
     </head>
@@ -21,14 +29,64 @@
             <img class="laptop" src="images/Laptop.png"  alt="Laptop Png" > 
         </a>
         <br>
-        <a id="enableTimeTravel"><img id="timeMachine" class="timeMachine" src="images/timeMachine.jpg"></a>
+
+        <div class="row">
+            
+            <div class="column">
+                <p id="hide"hidden="hidden"><a href="gartha.html"><img class="past" src="images/arrow.png" alt="Past"></a></p>
+                <p id= "hide_3"hidden="hidden"class="text_past">Past</p>
+            </div>
+            
+            <div class="column">
+                <a id="enableTimeTravel"><img id="timeMachine" class="timeMachine" src="images/timeMachine.jpg"></a>
+            </div>
+            
+            <div class="column">
+                <p id="hide_2" hidden="hidden"><a href="Future_JK.html"><img class="future" src="images/arrow_right.png" alt="Future"></a></p>
+                <p id="hide_4" hidden="hidden"class="text_future">Future</p>
+            </div>
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <br>
+        <img src="images/Exitsign.avif" class="exit">
+        <br>
+        <a id="Open"href="Present_RPD.html"><img id="Exit"class="door"src="images/door_Locked.png"></a>
+        <br>
+        <br>
+        <br>
+        <br>
     </body>
     <script>
-        const key = localStorage.getItem("key_present");
+        // testing for end sequence
+        // localStorage.setItem("key_past",1);
+        // localStorage.setItem("key_future",1);
+        // localStorage.clear();
+        
+        // Need to call your keys key_past or key_future @jamie and matty
+        const key = sessionStorage.getItem("key_present");
+        const key_2 = sessionStorage.getItem("key_past")
+        const key_3 = sessionStorage.getItem("key_future")
         if (key == 1){
             document.getElementById("timeMachine").src=("images/timeMachine_completed.jpg");
+            document.getElementById("Exit").src=("images/door_Locked1.png");
             document.getElementById("timeMachine").class="timeMachine";
-            
+            document.getElementById("hide").hidden="";
+            document.getElementById("hide_2").hidden="";
+            document.getElementById("hide_3").hidden="";
+            document.getElementById("hide_4").hidden="";
         }
+        if(key_2 == 1 || key_3 == 1 ){
+            document.getElementById("Exit").src=("images/door_Locked2.png");
+        }
+        if(key == 1 && key_2 == 1 && key_3 == 1 ){
+            document.getElementById("Exit").src=("images/door_Open.png");
+            document.getElementById("Open").href=("End.html");
+        }
+        
     </script>
 </html> 
