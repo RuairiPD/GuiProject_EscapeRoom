@@ -91,7 +91,10 @@
                 
                 console.log('Key!');
                 document.getElementById("p").hidden = "";
-                sessionStorage.setItem("key_present",1);
+
+                // THIS ONE
+                localStorage.setItem("key_present",1);
+                
               }
               // You can trigger any custom event here
             });  
