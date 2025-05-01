@@ -4,7 +4,7 @@ let userCheck;
 let finalCheck = userCheck.value.toLowerCase();
 
     if (finalCheck==="trusted data exchange") {
-        localStorageStorage.setItem("key_future",1);
+        localStorage.setItem("key_future",1);
         let img = document.createElement("img");
 
         // Set the source, width, 
