@@ -22,3 +22,8 @@
 # 3. Use ChatGPT to generate the key phrase
 # 4. Use chatGPT to generate various images (sticky note, poster, etc) to hide the codes within
 # 5. Once key phrase entered key appears and user is given value through javascript in local stoarge
+
+
+# CHEAT SHEET - Present - right click after light goes green, move cursor on star, left click
+# Future - trusted data exchange
+# Past -
