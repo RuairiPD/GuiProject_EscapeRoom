@@ -1,79 +1,170 @@
 <!DOCTYPE html>
 <!--Code = Trusted data exchange -->
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trusted Data Exchange</title>
     <style>
-      
-        body{background-color: black; margin: 0; padding: 0; }
+        body {
+            background-color: black; 
+            margin: 0; 
+            padding: 0;
+            font-family: Arial;
+            overflow: hidden;
+        }
+        
         .Container {
-          position: relative;
-          font-family: Arial;
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+        }
+        
+        .background-img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
         }
         
         .input {
-          position: absolute;
-          bottom: 20px;
-          right: 570px;
-          background-color: black;
-          color: white;
-          padding-left: 20px;
-          padding-right: 20px;
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            gap: 10px;
+            width: 80%;
+            max-width: 500px;
         }
+        
         .sticky {
-          position: absolute;
-          bottom: 400px;
-          left: 20px;
-          padding-left: 20px;
-          padding-right: 20px;
+            position: absolute;
+            bottom: 50%;
+            left: 2%;
+            width: 15%;
+            max-width: 200px;
         }
+        
         .poster {
-          position: absolute;
-          bottom: 590px;
-          right: 485px;
-          padding-left: 20px;
-          padding-right: 20px;
+            position: absolute;
+            top: 11%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 25%;
+            max-width: 250px;
         }
+        
         .whiteboard {
-          position: absolute;
-          bottom: 375px;
-          right: 20px;
-          padding-left: 20px;
-          padding-right: 20px;
+            position: absolute;
+            bottom: 50%;
+            right: 2%;
+            width: 12%;
+            max-width: 150px;
         }
-        .arrow{
-          position: absolute;
-          top: 10px;
-          right: 20px;}
+        
+        .arrow {
+            position: absolute;
+            top: 2%;
+            right: 2%;
+            width: 7%;
+            max-width: 100px;
+        }
+        
+        input {
+            padding: 8px;
+            width: 70%;
+            max-width: 300px;
+        }
+        
+        button {
+            padding: 8px 16px;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+        
+        @media (max-width: 768px) {
+            .sticky {
+                width: 20%;
+                bottom: 25%;
+            }
+            
+            .poster {
+                width: 35%;
+            }
+            
+            .whiteboard {
+                width: 18%;
+                bottom: 20%;
+            }
+            
+            .arrow {
+                width: 10%;
+            }
+            
+            .input {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            input {
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .sticky {
+                width: 25%;
+                bottom: 20%;
+            }
+            
+            .poster {
+                width: 45%;
+            }
+            
+            .whiteboard {
+                width: 22%;
+                bottom: 15%;
+            }
+            
+            .input {
+                padding: 8px;
+                width: 90%;
+            }
+        }
     </style>
-    <script src="JavaScript\Future_JK.js"></script>
-<head>
+    <script src="JavaScript/Future_JK.js"></script>
 </head>
 
 <body>
 <div class="Container">
-<img src="images\FutureDesk.png" width="1436" height="761" alt="Jamie Banner">
+    <img src="images/FutureDesk.png" class="background-img" alt="Future Desk">
 
-<div class="sticky">
-<img src="images\StickyNoteCode.png" width="200" height="200" alt="Sticky Code">
-</div>
+    <div class="sticky">
+        <img src="images/StickyNoteCode.png" alt="Sticky Code">
+    </div>
 
-<div class="poster">
-<img src="images\PosterCode.png" width="400" height="165 " alt="Poster Code">
-</div>
+    <div class="poster">
+        <img src="images/PosterCode.webp" alt="Poster Code">
+    </div>
 
-<div class="whiteboard">
-<img src="images\whiteboard.png" width="150" height="200" alt="whiteboard"> 
-</div>
+    <div class="whiteboard">
+        <img src="images/whiteboard.png" alt="whiteboard"> 
+    </div>
 
-<div class="arrow">
-<a href="Present_RPD.html"><img src="images/arrow.png" width="100" height="100"></a>
-</div>
+    <div class="arrow">
+        <a href="Present_RPD.html"><img src="images/arrow.png" alt="Navigation Arrow"></a>
+    </div>
 
-<div class="input">
-<input id="futureCode">
-<button onclick="codeCheck()">Submit!</button>
-</div>
-
+    <div class="input">
+        <input id="futureCode" placeholder="Enter code">
+        <button onclick="codeCheck()">Submit!</button>
+    </div>
 </div>
 </body>
-
 </html>
