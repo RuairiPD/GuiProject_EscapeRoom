@@ -137,6 +137,9 @@ Make a cheat sheet for testing purposes
 
 # Central Idea Internet
 Room design past, present, future.
+<br><br/>
 Page 1 Theme: Tim burners Less
+<br><br/>
 Page 2 Theme: flash games
+<br><br/>
 Page 3 Theme: Ai 
