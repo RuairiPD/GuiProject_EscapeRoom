@@ -36,7 +36,9 @@ use of chatgpt for hangman game logic
 
 
 
-# Download to use
+# To use
+1. Clone repo
+2. Open index in your browser (Main.html)
 
 # Main Page (Start Button) (Timer Starts) -->
 
