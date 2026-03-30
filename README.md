@@ -58,6 +58,8 @@ go to present (Solve last puzzle) -->
 
 Escape the room (time stops).
 
+<img width="923" height="635" alt="image" src="https://github.com/user-attachments/assets/6a0baf37-d2e7-485e-93b5-cad5c6d58ef4" />
+
 <img width="959" height="861" alt="image" src="https://github.com/user-attachments/assets/a3b9c8b1-54db-4775-abcd-75d6b8f9d5e3" />
 
 
