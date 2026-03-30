@@ -3,9 +3,11 @@
 # HTML Project 2025
 
 a team effort between Ruairí, Jamie and Matthew creating a time escape room
-#
+<br><br/>
 Ruairí - Present/Mainpage/MazeGame/Ending Card
+<br><br/>
 Jamie - Future(Riddle)
+<br><br/>
 Matthew - Past(Hangman)
 
 
