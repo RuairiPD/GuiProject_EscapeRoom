@@ -14,10 +14,13 @@ Matthew - Past(Hangman)
 # Languages used
 
 JavaScript
+<br><br/>
 HTML
+<br><br/>
 CSS
 #
 Canvas API
+<br><br/>
 localStorage
 
 
@@ -28,13 +31,12 @@ localStorage
 # Ai acknowledgements
 
 use of copilot for help with canvas 
+<br><br/>
 use of chatgpt for hangman game logic
 
 
 
 # Download to use
-
-# Sneak peek of how it looks
 
 # Main Page (Start Button) (Timer Starts) -->
 
@@ -90,10 +92,14 @@ Escape the room (time stops).
 
 # To-Do 
 
-# remove the ability to cheat through the maze with rightclick
-# fix logic errors with the key's
-# another room?
-# debug past 
+ remove the ability to cheat through the maze with rightclick
+<br><br/>
+ fix logic errors with the key's
+<br><br/>
+ another room?
+<br><br/>
+ debug past 
+
 
 
 
@@ -103,7 +109,7 @@ Escape the room (time stops).
 
 # CHEAT SHEET - Present - right click after light goes green, move cursor on star, left click
 # Future - trusted data exchange
-# Past -
+# Past - <incomplete>
 
 Completed
 # 1. add past and future after time machine enabled
