@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html>
     <style>
-        canvas{
+        canvas {
             border: 1px solid #000;
             cursor: pointer;
-            display:block;
-            margin-right: auto;
-            margin-left: auto;
-            width: 764px;
-            height: 497px;
+            display: block;
+            margin: 0 auto;
         }
 
         *{background-color: black;}
@@ -39,10 +36,10 @@
         <!-- Maze -->
         <canvas id="myCanvas"></canvas>
         <div>
-          <button on></button>
+          
             <script>
-            let trueFalse;
-             const canvas = document.getElementById('myCanvas');
+            let trueFalse="";
+            const canvas = document.getElementById('myCanvas');
             const ctx = canvas.getContext('2d');
           
             const image = new Image();
