@@ -1,11 +1,15 @@
 # GuiProject_EscapeRoom
 
+# HTML Project 2025
+
+
+
 # Languages used
 
 JavaScript
 HTML
 CSS
-
+#
 Canvas API
 localStorage
 
@@ -14,8 +18,10 @@ localStorage
 
 
 
+# Ai acknowledgements
 
-
+use of copilot for help with canvas 
+use of chatgpt for hangman game logic
 
 
 
