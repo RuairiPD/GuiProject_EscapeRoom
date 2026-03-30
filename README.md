@@ -2,6 +2,10 @@
 
 # HTML Project 2025
 
+a team effort between Ruairí, Jamie and Matthew creating a time escape room
+Ruairí - Present/Mainpage/MazeGame/Ending Card
+Jamie - Future(Riddle)
+Matthew - Past(Hangman)
 
 
 # Languages used
