@@ -107,29 +107,36 @@ Escape the room (time stops).
 
 
 
-# CHEAT SHEET - Present - right click after light goes green, move cursor on star, left click
-# Future - trusted data exchange
-# Past - <incomplete>
+# CHEAT SHEET - 
+Present - right click after light goes green, move cursor on star, left click
+<br><br/>
+Future - trusted data exchange
+<br><br/>
+Past - <incomplete>
 
-Completed
-# 1. add past and future after time machine enabled
-# 3. add some sort of "completion door"
-# 3. add a green/redlight so player knows when its started and if they failed
+# Completed
+add past and future after time machine enabled
+<br><br/>
+add some sort of "completion door"
+<br><br/>
+add a green/redlight so player knows when its started and if they failed
+<br><br/>
+Make main page
+<br><br/>
+Make 3 rooms 
+<br><br/>
+Make a cheat sheet for testing purposes
 
-# 1. Make main page 
-# 2. Make 3 rooms (maybe more)
-# 3. Make a cheat sheet for testing purposes
+#Jamie 
+
+1. Use ChatGPT to genrate desk setup
+2. Create basic text box and button
+3. Use ChatGPT to generate the key phrase
+4. Use chatGPT to generate various images (sticky note, poster, etc) to hide the codes within
+5. Once key phrase entered key appears and user is given value through javascript in local stoarge
 
 # Central Idea Internet
-# Room design past, present, future.
-# Page 1 Theme: Tim burners Less
-# Page 2 Theme: flash games
-# Page 3 Theme: Ai 
-
-# Jamie 
-
-# 1. Use ChatGPT to genrate desk setup
-# 2. Create basic text box and button
-# 3. Use ChatGPT to generate the key phrase
-# 4. Use chatGPT to generate various images (sticky note, poster, etc) to hide the codes within
-# 5. Once key phrase entered key appears and user is given value through javascript in local stoarge
+Room design past, present, future.
+Page 1 Theme: Tim burners Less
+Page 2 Theme: flash games
+Page 3 Theme: Ai 
